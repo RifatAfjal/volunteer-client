@@ -1,0 +1,36 @@
+.homepage {
+    background: url(../../Images/background.png) no-repeat center center fixed;
+    background-size: cover;
+}
+.headerContainer {
+    width: 600px;
+}
+.headerContainer h1 {
+    font-size: 30px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    color: white;
+}
+.headerContainer input, .headerContainer button{
+    height: 50px;
+}
+.headerContainer input{
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.headerContainer input:focus {
+    border: 1px solid black;
+    outline: none;
+}
+.headerContainer button{
+    width: 20%;
+}
+.volunteerCard{
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid #007bff;
+    cursor: pointer;
+}

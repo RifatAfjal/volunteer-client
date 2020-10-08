@@ -1,0 +1,43 @@
+.loginContainer {
+    width: 100vw;
+    height: 100vh;
+}
+.loginCard {
+    width: 100%;
+}
+.volunteerLogo {
+    width: 200px;
+    display: block;
+    margin: 0 auto 50px auto ;
+}
+.card {
+    padding: 50px 10px;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+}
+.icon {
+    height: 100%;
+}
+.loginBtn {
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid lightgray;
+}
+.loginBtn:focus{
+    outline: none;
+}
+.loginBtn:active{
+    background-color: #0000001a;
+}
+
+@media screen and (min-width: 540px){
+    .card {
+        padding: 100px 50px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .loginCard {
+        width: 500px;
+    }
+}

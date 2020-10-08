@@ -1,0 +1,30 @@
+.register {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formContainer {
+    width: 100%;
+    border: 2px solid lightgrey;
+    padding: 30px;
+    border-radius: 10px;
+}
+.datepicker {
+    background-color: #e9ecef;
+    padding: 8px 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.datepicker:focus {
+    border-color: #007bff;;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.075) inset, 0 0 8px #007bff;;
+    outline: 0 none;
+}
+@media screen and (min-width: 768px){
+    .formContainer {
+        width: 500px;
+    }
+}

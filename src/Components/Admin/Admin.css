@@ -1,0 +1,11 @@
+.add-event-container {
+    width: 100%;
+    background-color: lightgray;
+    padding: 50px;
+}
+
+.add-event-form {
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+}
